@@ -14,7 +14,7 @@ struct Network_LayeringApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PostScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
